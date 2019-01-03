@@ -1,0 +1,24 @@
+{
+  "name": "integrationrntoexsitapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daizhaohui/IntegrationRNToExsitApp.git"
+  },
+  "author": "daizhaohui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daizhaohui/IntegrationRNToExsitApp/issues"
+  },
+  "homepage": "https://github.com/daizhaohui/IntegrationRNToExsitApp#readme",
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-native": "^0.57.8"
+  }
+}

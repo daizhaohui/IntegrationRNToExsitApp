@@ -25,5 +25,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)ToGames:(id)sender {
+}
 
 @end
