@@ -13,6 +13,7 @@
 		7F24B3A021DDA3E20089EF3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B39F21DDA3E20089EF3E /* Assets.xcassets */; };
 		7F24B3A321DDA3E20089EF3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B3A121DDA3E20089EF3E /* LaunchScreen.storyboard */; };
 		7F24B3A621DDA3E20089EF3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F24B3A521DDA3E20089EF3E /* main.m */; };
+		7F24B3CB21DE0F620089EF3E /* RNHighScores.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B3CA21DE0F610089EF3E /* RNHighScores.jsbundle */; };
 		D91B8A94C29DC802E3692834 /* libPods-IntegrateRNDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB731DDD37C699D7171E508 /* libPods-IntegrateRNDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		7F24B3A221DDA3E20089EF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F24B3A421DDA3E20089EF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F24B3A521DDA3E20089EF3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F24B3CA21DE0F610089EF3E /* RNHighScores.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RNHighScores.jsbundle; path = bundles/RNHighScores.jsbundle; sourceTree = SOURCE_ROOT; };
 		8DC9D247C6B157FF3947E72E /* Pods-IntegrateRNDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrateRNDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntegrateRNDemo/Pods-IntegrateRNDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FC83450DEE82DDF6CE63415C /* Pods-IntegrateRNDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrateRNDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntegrateRNDemo/Pods-IntegrateRNDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +76,7 @@
 		7F24B39521DDA3E20089EF3E /* IntegrateRNDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7F24B3CA21DE0F610089EF3E /* RNHighScores.jsbundle */,
 				7F24B39621DDA3E20089EF3E /* AppDelegate.h */,
 				7F24B39721DDA3E20089EF3E /* AppDelegate.m */,
 				7F24B39921DDA3E20089EF3E /* ViewController.h */,
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F24B3A321DDA3E20089EF3E /* LaunchScreen.storyboard in Resources */,
+				7F24B3CB21DE0F620089EF3E /* RNHighScores.jsbundle in Resources */,
 				7F24B3A021DDA3E20089EF3E /* Assets.xcassets in Resources */,
 				7F24B39E21DDA3E20089EF3E /* Main.storyboard in Resources */,
 			);
@@ -168,15 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-IntegrateRNDemo-checkManifestLockResult.txt",
 			);

@@ -1,2 +1,3 @@
 node_modules/
-ios/IntegrateRNDemo/Pods/
+ios/Pods/
+ios/build/

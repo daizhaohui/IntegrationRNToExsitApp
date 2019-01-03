@@ -1,0 +1,1 @@
+react-native bundle --platform ios --entry-file ./RNApps/RNHighScores/index.js --bundle-output ./ios/bundles/RNHighScores.jsbundle --dev false
