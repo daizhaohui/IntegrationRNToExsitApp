@@ -13,9 +13,11 @@
 		7F24B3A021DDA3E20089EF3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B39F21DDA3E20089EF3E /* Assets.xcassets */; };
 		7F24B3A321DDA3E20089EF3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F24B3A121DDA3E20089EF3E /* LaunchScreen.storyboard */; };
 		7F24B3A621DDA3E20089EF3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F24B3A521DDA3E20089EF3E /* main.m */; };
+		D91B8A94C29DC802E3692834 /* libPods-IntegrateRNDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB731DDD37C699D7171E508 /* libPods-IntegrateRNDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6AB731DDD37C699D7171E508 /* libPods-IntegrateRNDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IntegrateRNDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F24B39321DDA3E20089EF3E /* IntegrateRNDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntegrateRNDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F24B39621DDA3E20089EF3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F24B39721DDA3E20089EF3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		7F24B3A221DDA3E20089EF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F24B3A421DDA3E20089EF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F24B3A521DDA3E20089EF3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DC9D247C6B157FF3947E72E /* Pods-IntegrateRNDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrateRNDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntegrateRNDemo/Pods-IntegrateRNDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FC83450DEE82DDF6CE63415C /* Pods-IntegrateRNDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrateRNDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntegrateRNDemo/Pods-IntegrateRNDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D91B8A94C29DC802E3692834 /* libPods-IntegrateRNDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AAC7EB0556C2BAE0E3B058E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DC9D247C6B157FF3947E72E /* Pods-IntegrateRNDemo.debug.xcconfig */,
+				FC83450DEE82DDF6CE63415C /* Pods-IntegrateRNDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7F24B38A21DDA3E20089EF3E = {
 			isa = PBXGroup;
 			children = (
 				7F24B39521DDA3E20089EF3E /* IntegrateRNDemo */,
 				7F24B39421DDA3E20089EF3E /* Products */,
+				5AAC7EB0556C2BAE0E3B058E /* Pods */,
+				93A38B64B4B0986A4E5FEF99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +87,14 @@
 			path = IntegrateRNDemo;
 			sourceTree = "<group>";
 		};
+		93A38B64B4B0986A4E5FEF99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AB731DDD37C699D7171E508 /* libPods-IntegrateRNDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F24B3A921DDA3E20089EF3E /* Build configuration list for PBXNativeTarget "IntegrateRNDemo" */;
 			buildPhases = (
+				E531C784FA63E645DC099297 /* [CP] Check Pods Manifest.lock */,
 				7F24B38F21DDA3E20089EF3E /* Sources */,
 				7F24B39021DDA3E20089EF3E /* Frameworks */,
 				7F24B39121DDA3E20089EF3E /* Resources */,
@@ -136,6 +161,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E531C784FA63E645DC099297 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntegrateRNDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F24B38F21DDA3E20089EF3E /* Sources */ = {
@@ -276,6 +326,7 @@
 		};
 		7F24B3AA21DDA3E20089EF3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DC9D247C6B157FF3947E72E /* Pods-IntegrateRNDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +341,7 @@
 		};
 		7F24B3AB21DDA3E20089EF3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC83450DEE82DDF6CE63415C /* Pods-IntegrateRNDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
